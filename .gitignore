@@ -1,0 +1,6 @@
+bin/
+obj/
+
+# Codeblocks project files
+*.cbp
+*.layout
