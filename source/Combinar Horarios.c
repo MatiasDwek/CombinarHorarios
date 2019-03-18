@@ -275,9 +275,8 @@ int main()
     fprintf(p_imprimir, "Se encontraron %d combinaciones posibles:\n\n", combinaciones);
     fclose(p_imprimir);
 
-    printf("Se encontraron %d combinaciones posibles.\nLos horarios fueron generados en el archivo \"Horarios posibles\".\n", combinaciones);
-    printf("Pulse enter para cerrar.\n");
-    getchar();
+
+    system("notepad \"Horarios posibles.txt\"");
 
     return 0;
 }
